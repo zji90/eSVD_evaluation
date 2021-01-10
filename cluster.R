@@ -10,8 +10,6 @@ for (f in list.files('comp/')) {
   print(f)
   load(paste0('comp/',f))
   ct <- sub(':.*','',colnames(data))
-  ct[ct %in% c('cytotoxic_t','naive_t')] <- 't_cell'
-  print(unique(ct))
   
   sf <- function(m,tit,met,cl=NULL) {
     clu = kmeans(m,cl,iter.max=10000)$cluster

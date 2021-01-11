@@ -11,3 +11,5 @@ esvd.R:     run eSVD
 umap.R:     run SVD and umap
 
 cluster.R:  perform k-means and benchmark clustering performance
+
+Fig1A.R, Fig1B.R, Fig1C.R:    produce Figure 1A,1B,1C

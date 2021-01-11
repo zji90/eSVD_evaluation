@@ -6,6 +6,8 @@ Version: 1.0.0
 
 sub.rds:    scRNA-seq gene expression matrix used as input for the following .R files
 
+Run the following code in order to reproduce the results in the paper.
+
 esvd.R:     run eSVD
 
 umap.R:     run SVD and umap

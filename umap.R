@@ -1,5 +1,6 @@
 library(umap)
 af <- list.files('res')
+dir.create('comp')
 for (f in af) {
   load(paste0('res/',f))
   timepr <- system.time(pr <- prcomp(t(data),scale=T)$x)
